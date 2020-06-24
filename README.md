@@ -25,11 +25,14 @@ cd tg-securebridge
 pip install -r requirements.txt
 ```
 
-### 2. Grab your bot token from [@Botfather](https://t.me/@BotFather) on telegram
+#### 2. Grab your bot token from [@Botfather](https://t.me/@BotFather) on telegram
 
-Use `/newbot` command and follow setup instructions
+Use `/newbot` command and follow setup instructions.
 
-### 3. Run the bot
+Then rename the `.env.example` file to `.env` and paste your telegram token
+in `TELEGRAM_BOT_TOKEN=$right_here`.
+
+#### 3. Run the bot
 
 From inside the virtualenv, run:
 
