@@ -19,7 +19,7 @@ Scripts\activate # For Windows
 #### 1. Clone repo and install requirements
 
 ```bash
-git clone https://github.com/nikochiko/tg-securebridge tg-securebridge
+git clone https://github.com/nikochiko/tg-securebridge.git
 cd tg-securebridge
 
 pip install -r requirements.txt
