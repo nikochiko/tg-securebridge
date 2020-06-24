@@ -13,7 +13,7 @@ Install virtualenv with `pip install virtualenv`
 virtualenv venv && cd venv
 source bin/activate  # For linux
 
-Scripts\active # For Windows
+Scripts\activate # For Windows
 ```
 
 #### 1. Clone repo and install requirements
