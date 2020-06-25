@@ -107,7 +107,7 @@ def receive_message(update, context):
         try:
             context.bot.send_message(chat_id=receiver_id, text=message, **kwargs)
         except telegram.error.BadRequest:
-            message = f"From: {context.chat.title or 'private'}\n{update.message.text}"
+            message = f"From: {update.effective_chat.title or 'private'}\n{update.message.text}"
             kwargs = {}
             context.bot.send_message(chat_id=receiver_id, text=message)
 
